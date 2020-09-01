@@ -3,7 +3,8 @@
 		[
 
 
-			"data:init"
+			"game:init",
+			"game:1s-loop"
 
 
 		]
