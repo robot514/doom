@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{tag:{isRelic:1,onDrop:0}}}] at @s run function <namespace>:ondrop

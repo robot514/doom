@@ -1,0 +1,4 @@
+replaceitem entity @s hotbar.0 netherite_helmet{display:{Name:'{"text":"Broken Relic Helmet","color":"#785582","italic":false}'},Unbreakable:1b,isRelic:1,onDrop:0,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
+replaceitem entity @s hotbar.1 netherite_chestplate{display:{Name:'{"text":"Broken Relic Chestplate","color":"#785582","italic":false}'},Unbreakable:1b,isRelic:1,onDrop:0,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
+replaceitem entity @s hotbar.2 netherite_leggings{display:{Name:'{"text":"Broken Relic Leggings","color":"#785582","italic":false}'},Unbreakable:1b,isRelic:1,onDrop:0,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
+replaceitem entity @s hotbar.3 netherite_boots{display:{Name:'{"text":"Broken Relic Boots","color":"#785582","italic":false}'},Unbreakable:1b,isRelic:1,onDrop:0,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
