@@ -9,7 +9,7 @@ execute if entity @a[tag=target] run title @a[nbt={SelectedItem:{tag:{targetTrac
 execute unless entity @a[tag=target] run title @a[nbt={SelectedItem:{tag:{targetTracker:1}}}] actionbar {"text":"No Current Target","color":"red"}
 
 # Ends that game when a player enters the end
-execute if entity @e[nbt={Dimension:"minecraft:the_end"}] run function game:end/win
+execute as @a[nbt={Dimension:"minecraft:the_end"}] run function game:end/win
 
 #### Hallzmine:
 

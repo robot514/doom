@@ -8,4 +8,4 @@ execute at @a run playsound minecraft:entity.ender_dragon.death master @a ~ ~ ~ 
 
 title @a[tag=win] title {"text":"You Win!","color":"green"}
 title @a[tag=!win] title {"text":"Game Over!","color":"dark_red"}
-tellraw @a ["",{"text":"Game >> ","color":"gray"},{"selector":"@a[tag=win]","color":"aqua"},{"text":" has won the game! ","color":"white"},{"text":"Game has ended!","color":"light_purple"}]
+tellraw @a ["",{"text":"Game >> ","color":"gray"},{"selector":"@s","color":"aqua"},{"text":" has won the game! ","color":"white"},{"text":"Game has ended!","color":"light_purple"}]
