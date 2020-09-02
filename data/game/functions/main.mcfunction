@@ -20,4 +20,4 @@ execute as @e[type=item,nbt={Item:{tag:{isRelic:1,onDrop:0}}}] at @s run functio
 #### RedSC:
 
 # Players Won't be able to drop the Relic armor
-execute as @e[nbt={Item:{tag:{isRelic:1}}}] run data merge entity @s {PickupDelay:0}
+execute as @e[type=item,nbt={Item:{tag:{isRelic:1}}}] run data merge entity @s {PickupDelay:0}
