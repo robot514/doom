@@ -1,1 +1,0 @@
-execute if entity @e[nbt={Dimension:"minecraft:the_end"}] run function data:win

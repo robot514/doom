@@ -8,6 +8,9 @@ execute if entity @a[tag=target] run title @a[nbt={SelectedItem:{tag:{targetTrac
 # (RedSC) If no target exists, will display "No Current Target" above hotbar
 execute unless entity @a[tag=target] run title @a[nbt={SelectedItem:{tag:{targetTracker:1}}}] actionbar {"text":"No Current Target","color":"red"}
 
+# Ends that game when a player enters the end
+execute if entity @e[nbt={Dimension:"minecraft:the_end"}] run function game:end/win
+
 #### Hallzmine:
 
 #Hallzmine: Calls ondrop function for relics that are both on the ground and haven't been dropped before.

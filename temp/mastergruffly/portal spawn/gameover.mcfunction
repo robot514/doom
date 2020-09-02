@@ -1,1 +1,0 @@
-title @a title {"text":"game over","color":"dark_red"}
