@@ -5,7 +5,7 @@
 
 # Starts the Coord Leaking When 3 pieces of armor are worn
 execute as @a[tag=target] unless score .targetExists Config matches 1 run function game:coord_leak/clock
-
+execute unless entity @a[tag=target] if score .targetExists Config matches 1 run function game:coord_leak/reset
 
 ### Relic Count Commands
 

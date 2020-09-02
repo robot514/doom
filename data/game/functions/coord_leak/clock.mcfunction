@@ -7,4 +7,4 @@ scoreboard players set .targetExists Config 1
 
 
 #runs every 15 minutes
-schedule function data:clock 900s
+schedule function game:coord_leak/clock 900s
