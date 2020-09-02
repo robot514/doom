@@ -1,5 +1,6 @@
 
 execute at @a run playsound minecraft:entity.player.levelup player @a ~ ~ ~ 1 2
+title @a actionbar {"text":"Target Location Updated","color":"light_purple"}
 
 
 

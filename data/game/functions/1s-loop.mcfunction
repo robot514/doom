@@ -1,5 +1,13 @@
 
-# RedSC:
+#### RedSC:
+
+### Coord Leak Commands
+
+# Starts the Coord Leaking When 3 pieces of armor are worn
+execute as @a[tag=target] unless score .targetExists Config matches 1 run function game:coord_leak/clock
+
+
+### Relic Count Commands
 
 # Resets all players' RelicCount scoreboard
 scoreboard players reset @a RelicCount
