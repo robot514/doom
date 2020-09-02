@@ -12,3 +12,9 @@ execute unless entity @a[tag=target] run title @a[nbt={SelectedItem:{tag:{target
 
 #Hallzmine: Calls ondrop function for relics that are both on the ground and haven't been dropped before.
 execute as @e[type=item,nbt={Item:{tag:{isRelic:1,onDrop:0}}}] at @s run function game:itemdrop/ondrop
+
+
+#### RedSC:
+
+# Players Won't be able to drop the Relic armor
+execute as @e[nbt={Item:{tag:{isRelic:1}}}] run data merge entity @s {PickupDelay:0}
