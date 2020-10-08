@@ -24,3 +24,6 @@ function game:quads/main
 
 # Players Won't be able to drop the Relic armor
 execute as @e[type=item,nbt={Item:{tag:{isRelic:1}}}] run data merge entity @s {PickupDelay:0}
+
+#displays particles at falling lava
+execute as @e[tag=falling_lava] at @s run particle flame ~ ~ ~ 0.2 0.2 0.2 0.5 4 force @a
