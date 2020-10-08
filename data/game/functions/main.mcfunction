@@ -16,6 +16,9 @@ execute as @a[nbt={Dimension:"minecraft:the_end"}] run function game:end/win
 #Hallzmine: Calls ondrop function for relics that are both on the ground and haven't been dropped before.
 execute as @e[type=item,nbt={Item:{tag:{isRelic:1,onDrop:0}}}] at @s run function game:itemdrop/ondrop
 
+#Calls the main function for the quadrant checks
+function game:quads/main
+
 
 #### RedSC:
 

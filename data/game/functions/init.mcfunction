@@ -14,3 +14,7 @@ scoreboard objectives add Config dummy
 scoreboard objectives add target_coords dummy
 
 scoreboard objectives add coord dummy
+
+#Hallzmine:
+#Calls the init function for the quadrant checks
+function game:quads/init
