@@ -4,7 +4,8 @@
 
 
 			"game:init",
-			"game:1s-loop"
+			"game:1s-loop",
+			"game:quads/lava/loop"
 
 
 		]
