@@ -11,3 +11,8 @@ execute if entity @s[tag=quad_1] unless entity @s[x=0,dx=-750,z=0,dz=750,y=0,dy=
 execute if entity @s[tag=quad_2] unless entity @s[x=0,dx=750,z=0,dz=750,y=0,dy=256] run tag @s remove quad_2
 execute if entity @s[tag=quad_3] unless entity @s[x=0,dx=750,z=0,dz=-750,y=0,dy=256] run tag @s remove quad_3
 execute if entity @s[tag=quad_4] unless entity @s[x=0,dx=-750,z=0,dz=-750,y=0,dy=256] run tag @s remove quad_4
+
+execute if entity @s[tag=dead_zone] run tag @s remove quad_1
+execute if entity @s[tag=dead_zone] run tag @s remove quad_2
+execute if entity @s[tag=dead_zone] run tag @s remove quad_3
+execute if entity @s[tag=dead_zone] run tag @s remove quad_4
