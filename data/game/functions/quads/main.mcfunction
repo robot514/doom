@@ -11,4 +11,4 @@ tag @a[x=-50,dx=100,z=-50,dz=100,y=0,dy=256] add dead_zone
 execute as @a[tag=dead_zone] unless entity @s[x=-50,dx=100,z=-50,dz=100,y=0,dy=256] run tag @s remove dead_zone
 
 #run the quadrant checks
-execute as @a[tag=!dead_zone] run function game:quads/quadrant_checks
+execute as @a run function game:quads/quadrant_checks
